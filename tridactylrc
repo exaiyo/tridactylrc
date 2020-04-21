@@ -11,6 +11,9 @@
 "
 " Binds
 "
+bind J tabprev
+bind K tabnext
+bind $ tablast
 unbind h
 bind j scrollpx -50
 bind k scrollline 10
