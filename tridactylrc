@@ -16,6 +16,7 @@ colorscheme dark
 bind J tabprev
 bind K tabnext
 bind $ tablast
+bind g$ tabm
 unbind h
 bind j scrollpx -50
 bind k scrollline 10
@@ -172,9 +173,9 @@ command translate js let googleTranslateCallback = document.createElement('scrip
 "
 
 " New reddit is bad
-autocmd DocStart ^http(s?)://www.reddit.com js tri.excmds.urlmodify("-t", "www", "old")
+" autocmd DocStart ^http(s?)://www.reddit.com js tri.excmds.urlmodify("-t", "www", "old")
 " Mosquito nets won't make themselves
-"autocmd DocStart ^http(s?)://www.amazon.co.uk js tri.excmds.urlmodify("-t", "www", "smile")
+autocmd DocStart ^http(s?)://www.amazon.com js tri.excmds.urlmodify("-t", "www", "smile")
 
 " For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
 " vim: set filetype=tridactyl
