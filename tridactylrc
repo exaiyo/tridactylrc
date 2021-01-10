@@ -18,7 +18,9 @@ colorscheme dark
 bind J tabprev
 bind K tabnext
 bind $ tablast
+bind 0 tabfirst
 bind g$ tabm
+bind g0 tabm 1
 unbind h
 bind j scrollpx -50
 bind k scrollline 10
