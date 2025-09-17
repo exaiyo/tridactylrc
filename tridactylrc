@@ -26,6 +26,13 @@ bind j scrollpx -50
 bind k scrollline 10
 bind l scrollline -10
 bind ; scrollpx 50
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Temporary glitched-scrollpage workaround ;;
+bind <C-f> scrollline 28
+bind <C-b> scrollline -28
+bind <C-d> scrollline 16
+bind <C-u> scrollline -16
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 bind hi hint -i
 bind hb hint -b
 bind ho hint
