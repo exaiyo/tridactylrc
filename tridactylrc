@@ -5,7 +5,7 @@
 
 " Without native messsenger, use source --url https://github.com/exaiyo/tridactylrc/raw/master/tridactylrc
 " aliases:
-alias gitpull source --url https://raw.githubusercontent.com/exaiyo/tridactylrc/refs/heads/master/tridactylrc
+alias gitpull source --url https://github.com/exaiyo/tridactylrc/raw/master/tridactylrc
 
 " NB: If you want "vim-like" behaviour where removing a line from
 " here makes the setting disappear, uncomment the line below.
