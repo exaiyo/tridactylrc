@@ -19,12 +19,12 @@
 :root {
     --tridactyl-hintspan-bg: #00aa00 !important;
     --tridactyl-hintspan-fg: white !important;
-    --tridactyl-hintspan-active-bg: #00cc00 !important;
+    --tridactyl-hintspan-active-bg: #ffcc00 !important;
     --tridactyl-hintspan-active-fg: black !important;
     --tridactyl-hintspan-pressed-fg: #aaffaa !important;
 
     /* optional – the highlight on the page element itself */
-    --tridactyl-hint-bg: rgba(0, 170, 0, 0.85) !important;
+    --tridactyl-hint-bg: rgba(0, 170, 0, 0.15) !important;
     --tridactyl-hint-active-bg: #88ff00 !important;
     --tridactyl-hint-outline: 1px solid #006600 !important;
     --tridactyl-hint-active-outline: 1px solid #00aa00 !important;
