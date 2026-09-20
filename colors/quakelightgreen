@@ -19,7 +19,7 @@
 :root {
     --tridactyl-hintspan-bg: #00aa00 !important;
     --tridactyl-hintspan-fg: white !important;
-    --tridactyl-hintspan-active-bg: #ffcc00 !important;
+    --tridactyl-hintspan-active-bg: #00cc00 !important;
     --tridactyl-hintspan-active-fg: black !important;
     --tridactyl-hintspan-pressed-fg: #aaffaa !important;
 
