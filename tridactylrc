@@ -77,6 +77,8 @@ bind hg# hint -q#
 bind hgv hint -qW exclaim_quiet mpv
 bind hgw hint -qw
 bind hgb hint -qb
+" Unbind default 'repeat' last command. I don't use it and it just infinite-looped tab opens....
+unbind .
 
 " Comment toggler for Reddit and Hacker News
 bind hc hint -c [class*="expand"],[class="togg"]
